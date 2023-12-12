@@ -42,6 +42,7 @@ header > p {
 
 nav ul{
     display: inline-flex;
+    margin: auto;
     list-style: none;
     padding: 10px;
     width: 94vw;
@@ -135,14 +136,14 @@ section > p {
 section > ul{
     background-color: var(--cor0);
     width: 790px;
-    list-style: none;
     padding: 5px;
 }
 
 section > ul li{
     display: inline;
-    list-style: none;
     padding: 5px;
+    margin-left: 10px;
+    font-weight: bold;
 }
 
 section > ul li a {
