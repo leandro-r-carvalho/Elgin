@@ -159,20 +159,6 @@ section > ul li a:hover {
     text-decoration: underline;
 }
 
-div.img-bema {
-    width: 600px;
-    height: 400px;
-    border: 1px solid black;
-    margin: 5px 12px;
-}
-
-div.img-elgin {
-    width: 600px;
-    height: 400px;
-    border: 1px solid black;
-    margin: 5px 12px;
-}
-
 section > p.final {
     font-weight: bold;
     text-align: center;
