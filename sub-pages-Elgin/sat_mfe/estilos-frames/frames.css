@@ -1,0 +1,85 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Instrument+Serif&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=DM+Serif+Display&family=Instrument+Serif&display=swap');
+
+:root {
+    --cor0: #86d1ff;
+    --cor1: #2894E0;
+    --cor2: #03588C;
+    --cor3: #011640;
+    --cor4: #010D26;
+
+    --fonte-titulo: 'DM Serif Display', serif;
+    --fonte-padrao: 'Instrument Serif', serif;
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+html, body {
+    height: 100vh;
+    width: 100vw;
+}
+
+h2 {
+    font-family: var(--fonte-titulo);
+    letter-spacing: 2px;
+    color: #010D26;
+    text-align: center;
+    padding: 10px;
+}
+
+.sub-menu-imp-bema-4200 > ul{
+    background-color: var(--cor0);
+    padding: 5px;
+    text-align: center;
+}
+
+.sub-menu-imp-bema-4200 > ul li{
+    display: inline;
+    padding: 20px;
+    font-weight: bold;
+}
+
+.sub-menu-imp-bema-4200 > ul li a {
+    color: var(--cor4);
+    text-decoration: none;
+    font-size: 1.2em;
+    padding: 5px;
+}
+
+.sub-menu-imp-bema-4200 > ul li a:hover {
+    background-color: var(--cor2);
+    color: var(--cor0);
+    text-decoration: underline;
+}
+
+div#img-bema {
+    width: 700px;
+    height: 350px;
+    margin: auto;
+}
+
+div#img-elgin {
+    width: 700px;
+    height: 350px;
+    margin: auto;
+}
+
+p {
+    padding: 10px;
+    font-family: var(--fonte-padrao);
+    font-weight: normal;
+    font-size: 1.2em;
+    text-align: center;
+}
+
+p.final {
+    padding: 10px;
+    font-family: var(--fonte-padrao);
+    font-weight: bold;
+    font-size: 1.3em;
+    text-align: center;
+}
