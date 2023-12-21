@@ -59,13 +59,13 @@ h2 {
 div#img-bema {
     width: 700px;
     height: 350px;
-    margin: auto;
+    margin: 0 auto;
 }
 
 div#img-elgin {
     width: 700px;
     height: 350px;
-    margin: auto;
+    margin: 0 auto;
 }
 
 p {
