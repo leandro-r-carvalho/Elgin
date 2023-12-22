@@ -83,13 +83,13 @@ h2 {
 
 div#img-sat {
     width: 680px;
-    height: 500px;
+    height: 380px;
     margin: auto;
 }
 
 div#img-mfe {
     width: 680px;
-    height: 500px;
+    height: 380px;
     margin: auto;
 }
 
@@ -107,4 +107,53 @@ p.final {
     font-weight: bold;
     font-size: 1.3em;
     text-align: center;
+}
+
+/* P dentro da pag SAT */
+
+div.driver > p {
+    padding: 0px 10px;
+    font-family: var(--fonte-padrao);
+    font-weight: normal;
+    text-align: left;
+}
+
+div.modelos > h3 {
+    padding: 10px;
+    font-family: var(--fonte-padrao);
+    font-weight: bold;
+    font-size: 1.3em;
+    text-align: left;
+}
+
+div.modelos > p {
+    padding: 0px 10px;
+    font-family: var(--fonte-padrao);
+    font-weight: normal;
+    text-align: left;
+}
+
+/* P dentro da pag SAT_bema */
+
+section.rb > h3.titulo {
+    padding: 10px;
+    font-family: var(--fonte-padrao);
+    font-weight: bold;
+    font-size: 1.3em;
+    text-align: center;
+}
+
+section.rb > h3 {
+    padding: 10px;
+    font-family: var(--fonte-padrao);
+    font-weight: bold;
+    font-size: 1.2em;
+    text-align: left;
+}
+
+div.leds p {
+    padding: 0px 10px;
+    font-family: var(--fonte-padrao);
+    font-weight: normal;
+    text-align: justify;
 }
