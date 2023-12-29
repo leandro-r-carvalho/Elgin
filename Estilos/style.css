@@ -179,6 +179,35 @@ iframe {
     margin: auto;
 }
 
+section .leitor{
+    border-radius: 8px;
+    border:2px solid var(--cor0);
+    width: 30%;
+    text-align: center;
+    margin: 0 8px;
+    padding: 20px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+section .container {
+    display: flex;
+    justify-content: space-around;
+    padding: 0 8px;
+}
+
+section .leitor img{
+    max-width: 100%;
+}
+
+section .leitor .info{
+    font-size: 18px;
+    color: var(--cor3);
+    margin-top: 15px;
+}
+
 footer {
     box-shadow: inset 3px 3px 10px 0px var(--cor3);
     background-image: linear-gradient(to bottom, var(--cor1), var(--cor3));
