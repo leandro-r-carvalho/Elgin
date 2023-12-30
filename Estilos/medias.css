@@ -18,6 +18,7 @@
     padding: 0px;
 }
 
+/*
 @media screen and (max-width: 1940px) {
     div.imgFundo {
         background-image: url('../imagens/fundo1.jpg'); 
@@ -92,22 +93,131 @@
 
     section#img01 {
         background-image: none;
-    }*/
+    }
 }
-
+*/
 @media screen and (max-width: 576px) {
     
-    /* Menu */
-    nav {
-        padding: 10px;
-        width: 400px;
+    /* Menu Celular */
+    
+    header > h1 {
+        font-size: 2.5em;
+        
     }
     
-    nav a {
+    header > p {
+        font-size: 1.1em;
+        margin-bottom: 20px;
+    }
+    
+    nav ul{
         display: block;
-        padding: 5px 15px;
+        margin: auto;
+        padding: 10px;
+        width: 35vw;
+        text-align: center;
+        box-shadow: none;
+    }
+    
+    nav ul li a {
+        font-family: var(--fonte-titulo);
+        color: var(--cor4);
+        border-radius: 3px;
+        padding: 2px;
+        text-decoration: none;
+        transition-duration: 0.5s;
+    }
+    
+    nav ul li a:hover {
+        background-color: var(--cor2);
+        color: var(--cor0);
+        text-decoration: underline;
+    }
+    
+    nav ul li:hover .sub-menu{
+        display: inline-block;
+        position: absolute;
+        padding: 10px;
+        box-shadow: 0px 1px 1px var(--cor3);
+    }
+    
+    nav ul li:hover .sub-menu ul{
+        width: 30vw;
+    }
+    
+    nav ul li:hover .sub-menu ul li{
+        padding: 2px;
     }
 
+    /* Main Celular */
+
+    main {
+        min-width: 300px;
+        background-color: var(--cor1);
+        font-family: var(--fonte-padrao);
+        padding-top: 20px; 
+    }
+    
+    /* Section Celular */
+ 
+    section > h2 {
+        font-family: var(--fonte-titulo);
+        font-weight: normal;
+        letter-spacing: 2px;
+        font-size: 1.5em;
+    }
+    
+    section > h3 {
+        letter-spacing: 1.5px;
+        font-size: 1.2em;
+    }
+    
+    p.titulo {
+        font-size: 1.2em;
+    }
+    
+    section > p {
+        font-size: 1.1em;
+        line-height: 1.3em;
+    }
+    
+    /* Menu section Celular */
+
+    section > ul{
+        background-color: var(--cor0);
+        width: 439px;
+        padding: 2px;
+    }
+    
+    section > ul li{
+        display: block;
+        padding: 5px;
+        margin-left: 15px;
+    }
+    
+    section > ul li a {
+        color: var(--cor4);
+        text-decoration: none;
+        font-size: 1em;
+        padding: 5px;
+    }
+    
+    /* Menu Iframe Celular */
+
+    iframe {
+        border-color: #010D26;
+        display: block;
+        margin: auto;
+    }
+    
+    /* Menu Footer Celular */
+
+    footer > p{
+        font-size: 14px;
+        padding: 15px 0;
+    }
+
+    /*
     div.imgFundo {
         background-image: url('../imagens/fundoP.jpg');
         background-repeat: no-repeat;
@@ -134,153 +244,7 @@
         margin: auto;
         margin-bottom: 15px;
     }
-
-    /* Imagem paralax */
-
-
-    /* Matricule-se já */
-
-    section.imagens hr{
-        width: 450px;
-    }
-    
-    section .foto{
-        width: 25%;
-        padding: 10px;
-        position: relative;
-        display: flex;
-    }
-
-    section .foto .curso{
-        font-size: 12px;
-        color: var(--cor3);
-        margin-top: 10px;
-    }
-
-    section .foto .info .categories{
-        font-size: 10px;
-        line-height: 15px;
-    }
-    
-    section .foto .info .price{
-        font-size: 12px;
-    }
-
-    /* Footer */
-    footer {
-        box-shadow: inset 3px 3px 10px 0px var(--cor3);
-        background-image: linear-gradient(to bottom, var(--cor1), var(--cor3));
-        font-size: 14px;
-        text-align: center;
-    }
-    
-    footer .container {
-        display: inline-block;
-        font-family: var(--fonte-padrao);
-        text-align: center;
-        width: 80%;
-    }
-    
-    footer h3 {
-        font-size: 1.20em;
-        text-align: center;
-    }
-    
-    footer .info {
-        width: 100%;
-    }
-
-    footer .familia, .institucional {
-        width: 100%
-    }
-
-    footer .info {
-        padding: 0px 10px;
-        text-align: center;
-    }
-    
-    footer .info > p{
-        text-align: center;
-        font-weight: bold;
-        font-size: 12px;
-        padding: 10px 0;
-    }
-    
-    footer .familia > ul{
-        list-style-type: none;
-        font-size: 14px;
-        line-height: 1.5em;
-    }
-     
-    footer .institucional > ul{
-        list-style-type: none;
-        font-size: 14px;
-        padding: 15px 0;
-        line-height: 1.5em;
-    }
-
-
-    /* ** Formulários ** */
-    div#formulario {
-        font-family: var(--fonte-padrao);
-        font-size: 1em;
-        display: block;
-    }
-
-    div#formulario > label {
-        font-family: var(--fonte-padrao);
-        font-size: 1em;
-    }
-
-    /* ** Campos Textbox ** */
-    form > div#campoNome, div#campoEmail, div#campoTel {
-        background-color: #86d1ff;
-        width: 75%;
-        height: 45px;
-    }
-
-    form > div.campos input {
-        background-color: #2894E0;
-        font-size: 1em;
-        width: 73%;
-        height: 80%;
-    }
-
-    /*  ** Radio ** */
-    div#campoSexo {
-        display: block;
-        background-color: #86d1ff;
-        width: 75%;
-        height: 30px;
-    }
-
-    form > div.radio .radio_input {
-        display: none;
-    }
-
-    form > div.radio .radio_label {
-        display: inline-flex;
-        padding: 5px 24px;
-        transform: translate(68px, -23px);
-    }
-
-    form > div.radio .radio_input:checked + .radio_label {
-        background: #03588C; 
-    }
-
-    /* ** Fieldset and Checks ** */
-
-    fieldset {
-        display: block;
-        margin: auto;
-        width: 75%;
-        padding: 7px;
-        border-color: var(--cor2);
-    }
-
-    /* Fim dos Formulários */
-
-
+    */
 }
 
 
