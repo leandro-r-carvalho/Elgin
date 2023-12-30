@@ -18,84 +18,6 @@
     padding: 0px;
 }
 
-/*
-@media screen and (max-width: 1940px) {
-    div.imgFundo {
-        background-image: url('../imagens/fundo1.jpg'); 
-        width: 600px;
-        height: 400px;
-        margin: auto;
-        margin-bottom: 15px;
-    }
-
-    div.imgFundoOrq {
-        background-image: url('../imagens/orquestra.png'); 
-        width: 600px;
-        height: 400px;
-        margin: auto;
-        margin-bottom: 15px;
-    }
-
-    div.imgFundoC {
-        background-image: url('../imagens/origem_musica.png'); 
-        width: 600px;
-        height: 400px;
-        margin: auto;
-        margin-bottom: 15px;
-    }
-}
-
-@media screen and (max-width: 960px) {
-    div.imgFundo {
-        background-image: url('../imagens/fundo1.jpg');
-        background-position: center center;
-        width: 600px;
-        height: 400px;
-        margin: auto;
-        margin-bottom: 15px;
-    }
-
-    div.imgFundoOrq {
-        background-image: url('../imagens/orquestra.png'); 
-        background-position: center center;
-        width: 600px;
-        height: 400px;
-        margin: auto;
-        margin-bottom: 15px;
-    }
-
-    div.imgFundoC {
-        background-image: url('../imagens/origem_musica.png'); 
-        background-position: center center;
-        width: 600px;
-        height: 400px;
-        margin: auto;
-        margin-bottom: 15px;
-    }
-
-    #img01 {
-        display: none;
-        display: block;
-    }
-
-    /*section.imagem {
-        font-family: var(--fonte-padrao);
-        padding: 0px;
-    }
-    
-    section.imagem > p {
-        color: black;
-        display: inline-block;
-        width: auto;
-        max-width: 800px;
-        background-color: var(--cor0);
-    }
-
-    section#img01 {
-        background-image: none;
-    }
-}
-*/
 @media screen and (max-width: 576px) {
     
     /* Menu Celular */
@@ -206,8 +128,9 @@
 
     iframe {
         border-color: #010D26;
-        display: block;
-        margin: auto;
+        width: 400px;
+        height: 820px;
+        margin: 0 auto;
     }
     
     /* Menu Footer Celular */
@@ -216,35 +139,6 @@
         font-size: 14px;
         padding: 15px 0;
     }
-
-    /*
-    div.imgFundo {
-        background-image: url('../imagens/fundoP.jpg');
-        background-repeat: no-repeat;
-        width: 400px;
-        height: 270px; 
-        margin: auto;
-        margin-bottom: 15px;
-    }
-
-    div.imgFundoOrq {
-        background-image: url('../imagens/orquestraP.png'); 
-        background-repeat: no-repeat;
-        width: 400px;
-        height: 270px;
-        margin: auto;
-        margin-bottom: 15px;
-    }
-
-    div.imgFundoC {
-        background-image: url('../imagens/origem_musicaP.png'); 
-        background-repeat: no-repeat;
-        width: 400px;
-        height: 470px;
-        margin: auto;
-        margin-bottom: 15px;
-    }
-    */
 }
 
 

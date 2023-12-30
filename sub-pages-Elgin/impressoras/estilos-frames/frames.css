@@ -31,43 +31,6 @@ h2 {
     padding: 10px;
 }
 
-.sub-menu-imp-bema-4200 > ul{
-    background-color: var(--cor0);
-    padding: 5px;
-    text-align: center;
-}
-
-.sub-menu-imp-bema-4200 > ul li{
-    display: inline;
-    padding: 20px;
-    font-weight: bold;
-}
-
-.sub-menu-imp-bema-4200 > ul li a {
-    color: var(--cor4);
-    text-decoration: none;
-    font-size: 1.2em;
-    padding: 5px;
-}
-
-.sub-menu-imp-bema-4200 > ul li a:hover {
-    background-color: var(--cor2);
-    color: var(--cor0);
-    text-decoration: underline;
-}
-
-div#img-bema {
-    width: 700px;
-    height: 350px;
-    margin: 0 auto;
-}
-
-div#img-elgin {
-    width: 700px;
-    height: 350px;
-    margin: 0 auto;
-}
-
 p {
     padding: 10px;
     font-family: var(--fonte-padrao);
