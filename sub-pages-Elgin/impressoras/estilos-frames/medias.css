@@ -61,8 +61,71 @@
 } 
 */
 @media screen and (max-width: 1940px) {
-    div.img-bema {
+    /*links internos */
+
+    div.sub-menu-imp-bema-4200 > ul{
+        padding: 2px;
+        margin: 0 auto;
+    }
+    
+    div.sub-menu-imp-bema-4200 > ul li{
+        display: inline-block;
+        padding: 7px;
+        margin: 0 auto;
+    }
+    
+    div.sub-menu-imp-bema-4200 > ul li a {
+        color: var(--cor4);
+        text-decoration: none;
+        font-size: 1.1em;
+        padding: 7px;
+        font-weight: bold;
+    }
+    
+    div.sub-menu-imp-bema-4200 > ul li a:hover {
+        background-color: var(--cor2);
+        color: var(--cor0);
+        text-decoration: underline;
+    }
+
+    div.img-bema-2500 {
+        background-image: url('../imagens-frames/mp2500th_img.png'); 
+        background-repeat: no-repeat;
+        background-position: center center;
+        width: 700px;
+        height: 350px;
+        margin: auto;
+    }
+
+    div.img-bema-2800 {
+        background-image: url('../imagens-frames/mp2800th_img.png'); 
+        background-repeat: no-repeat;
+        background-position: center center;
+        width: 700px;
+        height: 350px;
+        margin: auto;
+    }
+
+    div.img-bema-4200 {
+        background-image: url('../imagens-frames/mp4200th_img.png'); 
+        background-repeat: no-repeat;
+        background-position: center center;
+        width: 700px;
+        height: 350px;
+        margin: auto;
+    }
+
+    div.img-bema-adv {
         background-image: url('../imagens-frames/mp4200th-adv_img.png'); 
+        background-repeat: no-repeat;
+        background-position: center center;
+        width: 700px;
+        height: 350px;
+        margin: auto;
+    }
+
+    div.img-bema-hs {
+        background-image: url('../imagens-frames/mp4200hs_img.png'); 
         background-repeat: no-repeat;
         background-position: center center;
         width: 700px;
@@ -90,12 +153,49 @@
 }
 
 @media screen and (max-width: 760px) {
-    div.img-bema {
+
+    div.img-bema-2500 {
+        background-image: url('../imagens-frames/mp2500th_img.png'); 
+        background-repeat: no-repeat;
+        background-position: center center;
+        width: 700px;
+        height: 350px;
+        margin: auto;
+    }
+
+    div.img-bema-2800 {
+        background-image: url('../imagens-frames/mp2800th_img.png'); 
+        background-repeat: no-repeat;
+        background-position: center center;
+        width: 700px;
+        height: 350px;
+        margin: auto;
+    }
+
+    div.img-bema-4200 {
+        background-image: url('../imagens-frames/mp4200th_img.png'); 
+        background-repeat: no-repeat;
+        background-position: center center;
+        width: 700px;
+        height: 350px;
+        margin: auto;
+    }
+
+    div.img-bema-adv {
         background-image: url('../imagens-frames/mp4200th-adv_img.png'); 
         background-repeat: no-repeat;
         background-position: center center;
-        width: 350px;
-        height: 700px;
+        width: 700px;
+        height: 350px;
+        margin: auto;
+    }
+
+    div.img-bema-hs {
+        background-image: url('../imagens-frames/mp4200hs_img.png'); 
+        background-repeat: no-repeat;
+        background-position: center center;
+        width: 700px;
+        height: 350px;
         margin: auto;
     }
 
@@ -103,8 +203,8 @@
         background-image: url('../imagens-frames/i8-full_img.png'); 
         background-repeat: no-repeat;
         background-position: center center;
-        width: 350px;
-        height: 700px;
+        width: 700px;
+        height: 350px;
         margin: auto;
     }
 
@@ -112,8 +212,8 @@
         background-image: url('../imagens-frames/i9-full_img.png'); 
         background-repeat: no-repeat;
         background-position: center center;
-        width: 350px;
-        height: 700px;
+        width: 700px;
+        height: 350px;
         margin: auto;
     }
 }
@@ -123,7 +223,6 @@
     main {
         width: 380px;
         height: 100%;
-        background-color: var(--cor1);
         font-family: var(--fonte-padrao);
         padding-top: 20px; 
     }
@@ -139,9 +238,88 @@
         line-height: 1.3em;
     }
 
+    /*links internos*/
+    div.sub-menu-imp-bema-4200 > ul{
+        padding: 2px;
+        display: none;
+    }
+    
+    div.sub-menu-imp-bema-4200 > ul li{
+        display: inline-block;
+        padding: 7px;
+    }
+    
+    div.sub-menu-imp-bema-4200 > ul li a {
+        color: var(--cor4);
+        text-decoration: none;
+        font-size: 1em;
+        padding: 7px;
+        font-weight: bold;
+    }
+    
+    div.sub-menu-imp-bema-4200 > ul li a:hover {
+        background-color: var(--cor2);
+        color: var(--cor0);
+        text-decoration: underline;
+    }
+    
     /* Imgs pequena Celular */
-    div.img-bema {
+    div.img-bema-2500 {
         background-image: url('../imagens-frames/mp2500th_img_p.png'); 
+        background-repeat: no-repeat;
+        background-position: center center;
+        width: 360px;
+        height: 700px;
+        margin: auto;
+    }
+
+    div.img-bema-2800 {
+        background-image: url('../imagens-frames/mp2800th_img_p.png'); 
+        background-repeat: no-repeat;
+        background-position: center center;
+        width: 360px;
+        height: 700px;
+        margin: auto;
+    }
+
+    div.img-bema-4200 {
+        background-image: url('../imagens-frames/mp4200th_img_p.png'); 
+        background-repeat: no-repeat;
+        background-position: center center;
+        width: 360px;
+        height: 700px;
+        margin: auto;
+    }
+
+    div.img-bema-4200-F {
+        background-image: url('../imagens-frames/mp4200th_img_p.png'); 
+        background-repeat: no-repeat;
+        background-position: center center;
+        width: 360px;
+        height: 700px;
+        margin: auto;
+    }
+
+    div.img-bema-4200-C {
+        background-image: url('../imagens-frames/mp4200th_img_p.png'); 
+        background-repeat: no-repeat;
+        background-position: center center;
+        width: 360px;
+        height: 700px;
+        margin: auto;
+    }
+    
+    div.img-bema-adv {
+        background-image: url('../imagens-frames/mp4200th-adv_img_p.png'); 
+        background-repeat: no-repeat;
+        background-position: center center;
+        width: 360px;
+        height: 700px;
+        margin: auto;
+    }
+
+    div.img-bema-hs {
+        background-image: url('../imagens-frames/mp4200th-hs_img_p.png'); 
         background-repeat: no-repeat;
         background-position: center center;
         width: 360px;

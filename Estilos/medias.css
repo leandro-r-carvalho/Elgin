@@ -82,6 +82,10 @@
     
     /* Section Celular */
  
+    section {
+        max-width: 576px;
+    }
+
     section > h2 {
         font-family: var(--fonte-titulo);
         font-weight: normal;
@@ -107,7 +111,7 @@
 
     section > ul{
         background-color: var(--cor0);
-        width: 439px;
+        width: 455px;
         padding: 2px;
     }
     
@@ -140,5 +144,3 @@
         padding: 15px 0;
     }
 }
-
-
