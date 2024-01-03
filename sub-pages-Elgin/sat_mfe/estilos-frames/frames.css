@@ -81,13 +81,13 @@ h2 {
     text-decoration: underline;
 }
 
-div#img-sat {
+div.img-sat {
     width: 680px;
     height: 380px;
     margin: auto;
 }
 
-div#img-mfe {
+div.img-mfe {
     width: 680px;
     height: 380px;
     margin: auto;

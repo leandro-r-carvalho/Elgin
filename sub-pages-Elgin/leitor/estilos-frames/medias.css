@@ -19,268 +19,81 @@
 }
 
 @media screen and (max-width: 1940px) {
-    div.imgFundo {
-        background-image: url('../imagens/fundo1.jpg'); 
-        width: 600px;
-        height: 400px;
-        margin: auto;
-        margin-bottom: 15px;
+    section .leitor{
+        border-radius: 8px;
+        border:2px solid var(--cor0);
+        width: 30%;
+        text-align: center;
+        margin: 0 8px;
+        padding: 20px;
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
     }
-
-    div.imgFundoOrq {
-        background-image: url('../imagens/orquestra.png'); 
-        width: 600px;
-        height: 400px;
-        margin: auto;
-        margin-bottom: 15px;
+    
+    section .container {
+        display: flex;
+        justify-content: space-around;
+        padding: 0 8px;
     }
-
-    div.imgFundoC {
-        background-image: url('../imagens/origem_musica.png'); 
-        width: 600px;
-        height: 400px;
-        margin: auto;
-        margin-bottom: 15px;
+    
+    section .leitor img{
+        max-width: 100%;
+    }
+    
+    section .leitor .info{
+        font-size: 18px;
+        color: var(--cor3);
+        margin-top: 15px;
     }
 }
 
 @media screen and (max-width: 960px) {
-    div.imgFundo {
-        background-image: url('../imagens/fundo1.jpg');
-        background-position: center center;
-        width: 600px;
-        height: 400px;
-        margin: auto;
-        margin-bottom: 15px;
-    }
-
-    div.imgFundoOrq {
-        background-image: url('../imagens/orquestra.png'); 
-        background-position: center center;
-        width: 600px;
-        height: 400px;
-        margin: auto;
-        margin-bottom: 15px;
-    }
-
-    div.imgFundoC {
-        background-image: url('../imagens/origem_musica.png'); 
-        background-position: center center;
-        width: 600px;
-        height: 400px;
-        margin: auto;
-        margin-bottom: 15px;
-    }
-
-    #img01 {
-        display: none;
-        display: block;
-    }
-
-    /*section.imagem {
-        font-family: var(--fonte-padrao);
-        padding: 0px;
+    section .leitor{
+        border-radius: 8px;
+        border:2px solid var(--cor0);
+        width: 30%;
+        text-align: center;
+        margin: 0 8px;
+        padding: 20px;
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
     }
     
-    section.imagem > p {
-        color: black;
-        display: inline-block;
-        width: auto;
-        max-width: 800px;
-        background-color: var(--cor0);
+    section .container {
+        display: flex;
+        justify-content: space-around;
+        padding: 0 8px;
     }
-
-    section#img01 {
-        background-image: none;
-    }*/
+    
+    section .leitor img{
+        max-width: 100%;
+    }
+    
+    section .leitor .info{
+        font-size: 18px;
+        color: var(--cor3);
+        margin-top: 15px;
+    }
 }
 
 @media screen and (max-width: 576px) {
     
     /* Menu */
-    nav {
-        padding: 10px;
-        width: 400px;
-    }
-    
-    nav a {
+    section .leitor{
+        border:2px solid var(--cor0);
+        width: 50%;
         display: block;
-        padding: 5px 15px;
-    }
-
-    div.imgFundo {
-        background-image: url('../imagens/fundoP.jpg');
-        background-repeat: no-repeat;
-        width: 400px;
-        height: 270px; 
-        margin: auto;
-        margin-bottom: 15px;
-    }
-
-    div.imgFundoOrq {
-        background-image: url('../imagens/orquestraP.png'); 
-        background-repeat: no-repeat;
-        width: 400px;
-        height: 270px;
-        margin: auto;
-        margin-bottom: 15px;
-    }
-
-    div.imgFundoC {
-        background-image: url('../imagens/origem_musicaP.png'); 
-        background-repeat: no-repeat;
-        width: 400px;
-        height: 470px;
-        margin: auto;
-        margin-bottom: 15px;
-    }
-
-    /* Imagem paralax */
-
-
-    /* Matricule-se já */
-
-    section.imagens hr{
-        width: 450px;
+        margin: 0 auto;
     }
     
-    section .foto{
-        width: 25%;
-        padding: 10px;
-        position: relative;
-        display: flex;
-    }
-
-    section .foto .curso{
-        font-size: 12px;
-        color: var(--cor3);
-        margin-top: 10px;
-    }
-
-    section .foto .info .categories{
-        font-size: 10px;
-        line-height: 15px;
-    }
-    
-    section .foto .info .price{
-        font-size: 12px;
-    }
-
-    /* Footer */
-    footer {
-        box-shadow: inset 3px 3px 10px 0px var(--cor3);
-        background-image: linear-gradient(to bottom, var(--cor1), var(--cor3));
-        font-size: 14px;
-        text-align: center;
-    }
-    
-    footer .container {
-        display: inline-block;
-        font-family: var(--fonte-padrao);
-        text-align: center;
-        width: 80%;
-    }
-    
-    footer h3 {
-        font-size: 1.20em;
-        text-align: center;
-    }
-    
-    footer .info {
-        width: 100%;
-    }
-
-    footer .familia, .institucional {
-        width: 100%
-    }
-
-    footer .info {
-        padding: 0px 10px;
-        text-align: center;
-    }
-    
-    footer .info > p{
-        text-align: center;
-        font-weight: bold;
-        font-size: 12px;
-        padding: 10px 0;
-    }
-    
-    footer .familia > ul{
-        list-style-type: none;
-        font-size: 14px;
-        line-height: 1.5em;
-    }
-     
-    footer .institucional > ul{
-        list-style-type: none;
-        font-size: 14px;
-        padding: 15px 0;
-        line-height: 1.5em;
-    }
-
-
-    /* ** Formulários ** */
-    div#formulario {
-        font-family: var(--fonte-padrao);
-        font-size: 1em;
+    section .container {
         display: block;
     }
-
-    div#formulario > label {
-        font-family: var(--fonte-padrao);
-        font-size: 1em;
-    }
-
-    /* ** Campos Textbox ** */
-    form > div#campoNome, div#campoEmail, div#campoTel {
-        background-color: #86d1ff;
-        width: 75%;
-        height: 45px;
-    }
-
-    form > div.campos input {
-        background-color: #2894E0;
-        font-size: 1em;
-        width: 73%;
-        height: 80%;
-    }
-
-    /*  ** Radio ** */
-    div#campoSexo {
-        display: block;
-        background-color: #86d1ff;
-        width: 75%;
-        height: 30px;
-    }
-
-    form > div.radio .radio_input {
-        display: none;
-    }
-
-    form > div.radio .radio_label {
-        display: inline-flex;
-        padding: 5px 24px;
-        transform: translate(68px, -23px);
-    }
-
-    form > div.radio .radio_input:checked + .radio_label {
-        background: #03588C; 
-    }
-
-    /* ** Fieldset and Checks ** */
-
-    fieldset {
-        display: block;
-        margin: auto;
-        width: 75%;
-        padding: 7px;
-        border-color: var(--cor2);
-    }
-
-    /* Fim dos Formulários */
-
-
+    
 }
 
 

@@ -82,10 +82,6 @@
     
     /* Section Celular */
  
-    section {
-        max-width: 576px;
-    }
-
     section > h2 {
         font-family: var(--fonte-titulo);
         font-weight: normal;
@@ -111,7 +107,7 @@
 
     section > ul{
         background-color: var(--cor0);
-        width: 455px;
+        width: 439px;
         padding: 2px;
     }
     
@@ -137,6 +133,16 @@
         margin: 0 auto;
     }
     
+    /*Links em duas colunas
+    div.sub-menu-imp-bema {
+        display: flex;
+        flex-flow: row wrap;
+    }
+
+    li.col50 {
+        width: 50%;
+    }*/
+
     /* Menu Footer Celular */
 
     footer > p{
